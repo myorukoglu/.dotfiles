@@ -42,3 +42,6 @@ alias bubu='bubo && bubc'
 # alias dev="cd $HOME/Developer"
 
 # alias read-my-keystrokes="sed -n l"
+
+# aws
+# alias aws='docker run --rm -ti -v ~/.aws:/root/.aws amazon/aws-cli '
