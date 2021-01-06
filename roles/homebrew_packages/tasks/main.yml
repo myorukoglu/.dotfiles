@@ -12,10 +12,10 @@
     name: "{{ item }}"
     state: present
 
-- name: install Homebrew casks
-  when: homebrew_check.stat.exists
-  loop: "{{ casks }}"
-  homebrew_cask:
-    name: "{{ item }}"
-    state: present
-    install_options: force,appdir=/Applications
+# - name: install Homebrew casks
+#   when: homebrew_check.stat.exists
+#   loop: "{{ casks }}"
+#   homebrew:
+#     name: "{{ item }}"
+#     state: present
+#     install_options: force,appdir=/Applications, --cask

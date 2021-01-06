@@ -4,25 +4,28 @@
     - role: asdf
       tags:
         - asdf
-    - role: docker
-      tags:
-        - docker
-    - role: editorconfig
-      tags:
-        - editorconfig
+    # - role: editorconfig
+    #   tags:
+    #     - editorconfig
     - role: git
       tags:
         - git
-    - role: golang
-      tags:
-        - asdf
-        - golang
     - role: homebrew
       tags:
         - homebrew
     - role: homebrew_packages
       tags:
         - homebrew_packages
+    # - role: hyperterm
+    #   tags:
+    #     - hyperterm
+    # - role: nodejs
+    #   tags:
+    #     - asdf
+    #     - nodejs
+    - role: os
+      tags:
+        - os
     - role: python
       tags:
         - asdf
@@ -31,14 +34,9 @@
       tags:
         - asdf
         - ruby
-    - role: terraform
+    - role: vim
       tags:
-        - asdf
-        - terraform
-    - role: terragrunt
-      tags:
-        - asdf
-        - terragrunt
+        - vim
     - role: zsh
       tags:
         - zsh

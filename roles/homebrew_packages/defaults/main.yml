@@ -5,47 +5,91 @@ taps:
   - nektos/tap
 
 brews:
-  - ack
-  - autoconf
-  - aws-iam-authenticator
+  # - rbq/homebrew-kubeflow/kfctl
+  # - packer
+  # - openshift-cli
+  # - drone-cli
+  - git-lfs
   - aws-sam-cli
-  - bash
-  - bash-completion
-  - coreutils
-  - gpg
-  - helm
-  - heroku
+  # - nektos/tap/act
+  # - git-flow
+  - ack
   - imagemagick
-  - kubernetes-cli
-  - libffi
-  - libyaml
-  - nektos/tap/act
+  # - leiningen
+  # - github/gh/gh
+  # - spaceman-diff
+  # - jp2a
   - openssl
-  - packer
-  - rbq/homebrew-kubeflow/kfctl
-  - unrar
+  - libyaml
+  - libffi
   - wget
+  # - kubernetes-cli
+  # - helm
+  # - bash-completion
+  # - aws-iam-authenticator
+  # - tmux
+  # - heroku-toolbelt
+  # - hub
+  - bash
+  - tree
+  # - cowsay
+  - coreutils
+  # - gpg
+  # - autoconf
+  # - wxmac
+  # - asciinema
 
 casks:
-  - 1password
-  - dropbox
-  - font-fira-code
-  - font-hack-nerd-font
-  - google-chrome
-  - google-cloud-sdk
-  - gpg-suite
-  - iterm2
-  - jetbrains-toolbox
-  - ngrok
-  - paw
-  - private-internet-access
-  - sizzy
-  - sketch
-  - sketch-toolbox
-  - slack
-  - sourcetree
-  - steam
-  - transmission
-  - vagrant
-  - virtualbox
-  - visual-studio-code
+  # - evernote
+  # - virtualbox
+  # - vagrant
+  # - ngrok
+  # - gpg-suite
+  # - slack
+  # - discord
+  # - dropbox
+  # - google-cloud-sdk
+  # - font-fira-code
+  # - font-hack-nerd-font
+  # - jetbrains-toolbox
+  # - iterm2
+  # - sublime-text
+  # - visual-studio-code
+  # - principle
+  # - sketch
+  # - sketch-toolbox
+  # - sourcetree
+  # - github-desktop
+  # - skyfonts
+  # - balsamiq-mockups
+  # - adobe-creative-cloud
+  # - dash
+  # - lingo
+  # - robo-3t
+  # - sequel-pro
+  # - pgadmin3
+  # - mysqlworkbench
+  # - postico
+  # - keycastr
+  # - 1password
+  # - gitter
+  # - hipchat
+  # - skype
+  # - steam
+  # - tunnelbear
+  # - spectacle
+  # - utorrent
+  # - divvy
+  # - obs
+  # - paw
+  # - flux
+  # - screenflow
+  # - firefox
+  # - google-chrome
+  # - google-chrome-canary
+  # - firefoxnightly
+  # - webkit-nightly
+  # - chromium
+  # - torbrowser
+  # - radio-silence
+  # - loopback
